@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .centre{
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: auto;
+                margin-bottom: auto;
+                min-height: auto;
+    
+            }
+            body {
+             background-image: url("");
+             background-repeat: no-repeat;
+             background-size: cover;
+            }
+            h1 {
+                font-size:50px;
+            }
+            </style>
+        <title>WMAD project</title>
+    </head>
+    <body>
+        <div >
+            <center>
+                <h1><font color="black">Create a New Account </font></h1>
+            </center>
+        <form  method="post" action="/regester/reg" >
+         <table  class="centre" style="text-shadow: black;">
+          <tr style="font-size: x-large;">
+           <td ><font color="black">Name :</font></td> <td style="max-width: fit-content;"><input type="text" name="username" placeholder="Enter Name" required> </td><br>
+          </tr>
+          <tr style="font-size: x-large;">
+           <td><font color="black">Email :</font></td> <td><input type="text" name="email" placeholder="Enter email" required></td><br>
+          </tr>
+          <tr style="font-size: x-large;">
+           <td><font color="black">Password :</font></td> <td><input type="password" name="password" placeholder="Enter password"required></td><br>
+          </tr>
+          <tr style="font-size: x-large;">
+           <td><font color="black">Confirm Password :</font></td> <td><input type="password" name="cpwd" placeholder="Confirm password" required><br>
+          </tr>
+          <tr style="font-size: x-large;">
+            <td><input type="submit" value="Submit"></td>
+          </tr>
+         </table>
+        </form>
+        </div>
+  </body>
+</html>

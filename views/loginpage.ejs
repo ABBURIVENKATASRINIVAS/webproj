@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .centre{
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: auto;
+                margin-bottom: auto;
+                min-height: auto;
+    
+            }
+            
+           
+            body {
+             background-image: url("");
+             background-repeat: no-repeat;
+             background-color:white;
+             background-size: cover;
+            }
+            h1 {
+                font-size:75px;
+            }
+            </style>
+        <title>login page</title>
+    </head>
+    <body>
+        <div >
+            <center>
+                <h1><font color="black">Login</font></h1>
+            </center>
+        <form method="post" action="/login/auth">
+         <table class="centre" style="text-shadow: black;">
+          <tr style="font-size: x-large;">
+           <td ><font color="black">Username :</font></td> <td style="max-width: fit-content;"><input type="text" name="username" placeholder="Enter username" required> </td><br>
+        </tr>
+        <tr style="font-size: x-large;">
+         <td><font color="black">Password :</font></td> <td><input type="password" name="password" placeholder="Enter password" required></td><br>
+        </tr>
+        <tr style="font-size: x-large;">
+        <center><td><input type="submit" value="Submit"></td></center>
+        <br>
+       
+        </tr>
+       </table>
+      </form>
+      <h2><a href="/regester">not have account?</a></h2>
+      </div>
+    </body>
+</html>
